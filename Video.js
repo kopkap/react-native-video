@@ -281,7 +281,8 @@ const styles = StyleSheet.create({
   flexCenter: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    backgroundColor: '#000'
   },
   loadingText: {
     fontFamily: Platform.OS == 'ios'
