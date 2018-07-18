@@ -30,8 +30,6 @@ export default class Video extends Component {
       }, 100);
     } else {
       this.animation.play();
-      // Or set a specific startFrame and endFrame with:
-      this.animation.play(30, 120);
     }
   }
 
